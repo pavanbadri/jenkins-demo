@@ -17,4 +17,5 @@ spec:
    spec:
     containers:
     - name: myweb
+      imagePullPolicy: Always
       image: pavankumar22/jenkinsimage:v1
