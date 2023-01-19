@@ -19,3 +19,5 @@ spec:
     - name: myweb
       imagePullPolicy: Always
       image: pavankumar22/jenkinsimage:v1
+      ports:
+        - containerPort: 80
